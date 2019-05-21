@@ -1,0 +1,73 @@
+/*задаем визуальные параметры формы*/
+
+.main-conteiner {
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #cccccc;
+}
+
+.lines {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.block {
+
+	  margin: -0.5px;
+    float: left;
+    width: 74px;
+    height: 74px;
+    border: 1px solid #383838;
+}
+
+.text::after{
+
+  position: relative;
+  content: attr(name);
+  top: 30px;
+  left: 25px;
+
+}
+
+.line div:hover{
+
+  background: #e3e9e5;
+}
+
+.line:nth-child(even) .block:nth-child(odd){
+
+  background: #595959;
+}
+
+.line:nth-child(odd) .block:nth-child(even){
+
+  background: #595959;
+}
+
+.step{
+
+  background: green !important;
+}
+
+
+.red{ background: #f44842;}
+.pink{ background: #ffcccc;}
+.brown{ background: #823100;}
+.yellow{ background: #f2f418;}
+.green{	background: #04dd3f;}
+.blue{ background: #038ff9 !important;}
+.violet{ background: #610082;}
+.dark-blue{ background: #1a00b2;}
+
+.white{
+
+	background: white;}
+
+}
+
